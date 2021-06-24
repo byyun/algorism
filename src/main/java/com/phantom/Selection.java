@@ -14,12 +14,6 @@ public class Selection {
             tmp = inputData[i];
             inputData[i] = inputData[min];
             inputData[min] = tmp;
-            /*
-            for(int b : inputData) {
-                System.out.println(b);
-            }
-
-             */
         }
     }
 }
